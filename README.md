@@ -1,11 +1,12 @@
 # GrammarCorrector
 This tool fixes grammar and spelling errors in inputted text.
 
-Fine-tuning for FlanT5 family models is done with using a dataset called [JFLEG](https://arxiv.org/abs/1702.04066). The primary objective of the experiment was to develop a highly effective tool using relatively small models, minimal datasets, and constrained computational resources.
-
-To accomplish this goal, we implemented two key strategies:
-- [Perplexity-Based Data](https://arxiv.org/abs/2405.20541) Pruning With Small Reference Models.
-- A simple sampling and voting method for [multiple LLM agents](https://arxiv.org/abs/2402.05120).
+"[FlanT5 from scratch for the grammar correction tool](https://medium.com/@akhmat-s/flant5-from-scratch-for-the-grammar-correction-tool-deadba9a6778)" article about how this models was trained:
+>FlanT5 was trained using [JFLEG](https://arxiv.org/abs/1702.04066) dataset. The primary objective of the experiment was to develop a highly effective tool using relatively small models, minimal datasets, and constrained computational resources.
+>
+>To accomplish this goal, we implemented two key strategies:
+>- [Perplexity-Based Data](https://arxiv.org/abs/2405.20541) Pruning With Small Reference Models.
+>- A simple sampling and voting method for [multiple LLM agents](https://arxiv.org/abs/2402.05120).
 
 ## Installation
 ```python
