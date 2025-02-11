@@ -1,7 +1,7 @@
 # GrammarCorrector
-This tool fixes grammar and spelling errors in inputted text.
+This tool fixes grammar and spelling errors in input text.
 
-"[FlanT5 from scratch for the grammar correction tool](https://medium.com/@akhmat-s/flant5-from-scratch-for-the-grammar-correction-tool-deadba9a6778)" article about how this models was trained:
+"[FlanT5 from scratch for the grammar correction tool](https://medium.com/@akhmat-s/flant5-from-scratch-for-the-grammar-correction-tool-deadba9a6778)" article about how this model was trained:
 >FlanT5 was trained using [JFLEG](https://arxiv.org/abs/1702.04066) dataset. The primary objective of the experiment was to develop a highly effective tool using relatively small models, minimal datasets, and constrained computational resources.
 >
 >To accomplish this goal, we implemented two key strategies:
